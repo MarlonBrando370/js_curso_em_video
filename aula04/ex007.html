@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+       #input{
+           font: normal 10pt arial;
+           background-color: beige;
+          
+           text-align: center;
+           padding: 15px;
+           position: relative;
+          margin: auto;
+          width: 390px;
+          border-radius: 5px;
+          box-shadow: 1px 1px 4px black;
+           
+       }
+       #somar{
+           background-color: rgb(241, 241, 241);
+          font: normal 12pt arial;
+          margin-top: 10px;
+           
+       }
+       #res{
+        background-color:rgb(238, 227, 227) ;
+           font: normal 15pt arial;
+           display: inline-block;
+           margin-bottom: 10px;
+           padding: 2px;
+           border-radius: 3px;
+           
+           
+          
+          
+         
+          
+           
+       }
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Somando valores</h1>
+   
+ 
+    
+    
+    <div id="input">
+        <div id="res">Resultado</div><br>
+        <input type="number" name="txt1" id="txt1"> +
+        <input type="number" name="txt2" id="txt2"> <br>
+        <input type="button" value="somar" onclick="somar() " id="somar" >
+       
+    </div>
+    
+
+   
+
+    <script>
+        
+        var nu1 = document.querySelector('input#txt1');
+        var nu2 = document.getElementById('txt2');
+        var res = document.querySelector('div#res')
+        
+       
+        function somar() {
+            var n1 = Number(nu1.value);
+            var n2 = Number(nu2.value);
+            var r = n1 + n2;
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${r}  `
+             nu1.value='';
+             nu2.value='';
+            
+           
+            
+        }
+        nu1.focus();
+       
+
+       
+        
+
+
+
+
+    </script>
+    
+    
+
+
+
+
+</body>
+
+</html>
