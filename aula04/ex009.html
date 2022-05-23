@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <style>
+        #res{
+            font: normal 13pt arial;
+            display: inline-block;
+        }
+        #recado{
+            font: bold 13pt arial;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistemas de  Multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel">Km/h
+    <input type="button" value="Verificar" onclick="verifica()"> <br>
+    <p id="res"><strong>Resultado</strong></p>
+    <div id="recado"></div>
+    
+
+
+    <script>
+        
+        var vel = document.querySelector('input#txtvel');
+        var res = document.querySelector('#res')
+     
+
+        function verifica(){
+            var velocidade = Number(vel.value)
+            if(velocidade > 60){
+                res.innerHTML='Você ultrapassou o limite de volocidade. Multado!'
+               
+               
+                res.style.background = 'red'
+                res.style.color='white'
+                txtvel.focus();
+                txtvel.value = ""
+                recado.innerHTML='Dirija sempre usando o cinto de segurança'
+            }else{
+                res.innerHTML='Você está dentro do limite de velocidade!'
+               
+                res.style.background='green'
+                res.style.color='white'
+                txtvel.focus();
+                txtvel.value = ""
+                recado.innerHTML='Dirija sempre usando o cinto de segurança'
+               
+              }
+             
+        }
+        txtvel.value = ""
+        txtvel.focus();
+
+    </script>
+</body>
+</html>
