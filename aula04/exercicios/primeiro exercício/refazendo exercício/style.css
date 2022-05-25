@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body{
+    font: normal 15pt arial;
+}
+
+h1{
+    
+    color: white;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    
+}
+header{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+div{
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    box-shadow:  1px 4px 6px black;
+    
+}
+#img{
+    padding-bottom: 20px;
+    border-bottom-left-radius:  10px;
+    border-bottom-right-radius: 10px;
+}
+#p{
+    margin-bottom: 0px;
+    padding-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
