@@ -6,8 +6,8 @@ var h1 = document.querySelector('#titulo')
 
 
 var horasAg = new Date;
-//var horasAgora = horasAg.getHours();
-var horasAgora = 15
+var horasAgora = horasAg.getHours();
+//var horasAgora = 15
 var min = new Date;
 var minutes = min.getMinutes();
 hora.innerHTML=`Agora são ${horasAgora}:${minutes} horas  `
