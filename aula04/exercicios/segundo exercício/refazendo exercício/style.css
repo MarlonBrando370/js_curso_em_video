@@ -1,0 +1,84 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgba(44, 44, 231, 0.892) ;
+}
+h1{
+    
+    font: bold 17pt arial ;
+    text-align: center;
+    
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    padding: 3px 0px;
+    border-radius: 5px;
+   border: solid 3px rgb(89, 80, 121);
+}
+
+/*paragráfo do ano nescimento*/
+#pN{
+    padding: 15px;
+
+}
+#txtAno{
+    width: 60px;
+    border-color: blue;
+}
+#button{
+    background-color: rgb(55, 55, 158);
+    color: white;
+    margin: 20px;
+}
+#mensagem{
+    padding-bottom: 15px;
+}
+div{
+    text-align: center;
+    font: bold 13pt arial;
+    background-color: white;
+    margin: auto;
+    width: 75%;
+   /* box-shadow: 2px 8px 9px black;*/
+   box-shadow:
+    1px 3px 4px black;
+   
+}
+#div1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+#div2{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+#imagem{
+    padding: 20px;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 4px;
+    width: 100vw;
+}
+footer > p > a{
+    text-decoration: none;
+    color: rgb(188, 221, 250);
+}
+:hover > a{
+    text-decoration: underline;
+
+}

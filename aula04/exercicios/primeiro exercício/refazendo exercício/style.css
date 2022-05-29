@@ -37,7 +37,30 @@ div{
     padding-top: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+footer > p{
+    margin: 0px;
     
 }
+
+footer > p > a{
+    text-decoration: none;
+    color: rgb(188, 221, 250);
+}
+footer{
+    background-color: black;
+    color: white;
+    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+    width: 100vw;
+    text-align: center;
+    font: normal 12pt arial;
+
+
+}
+
 
 
