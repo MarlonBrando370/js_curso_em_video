@@ -18,13 +18,19 @@ header{
     padding: 10px;
 
 }
+section{
+    box-shadow:  1px 2px 5px black;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
 div{
     padding-bottom: 15px;
     text-align: center;
     background-color: white;
-    width: 75%;
+    width: 100%;
     margin: auto;
-    box-shadow:  1px 4px 6px black;
+   
     
 }
 #img{
