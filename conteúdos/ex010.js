@@ -10,3 +10,4 @@ if(idade < 16){
         console.log('Voto obrigatória!')
     }
 }
+
